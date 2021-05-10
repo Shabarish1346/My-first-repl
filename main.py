@@ -1,6 +1,4 @@
-def factorial(n):
-  if n == 0:
-    return 1
-  else:
-    return n * factorial(n - 1)
-print(factorial(5))
+E1 = True
+E2 = False
+E3 = E1 and E2 and 1/0
+print(E3)
